@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { Play, Mic, Trophy, Users } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-ielts.jpg";
 
 const Hero = () => {
@@ -22,14 +23,18 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                <Play className="mr-2" />
-                Start Practice Session
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                <Mic className="mr-2" />
-                Watch Demo
-              </Button>
+              <Link to="/practice">
+                <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+                  <Play className="mr-2" />
+                  Start Practice Session
+                </Button>
+              </Link>
+              <Link to="/demo">
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+                  <Mic className="mr-2" />
+                  Watch Demo
+                </Button>
+              </Link>
             </div>
 
             <div className="flex items-center gap-8 text-sm text-muted-foreground">

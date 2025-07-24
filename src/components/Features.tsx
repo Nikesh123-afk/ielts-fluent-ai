@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { Brain, Mic, BarChart3, Users, Award, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Features = () => {
   const features = [
@@ -84,9 +85,11 @@ const Features = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="hero" size="lg">
-            Start Your Free Trial
-          </Button>
+          <Link to="/auth">
+            <Button variant="hero" size="lg">
+              Start Your Free Trial
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
