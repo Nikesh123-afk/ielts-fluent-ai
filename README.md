@@ -1,4 +1,5 @@
-# Welcome to your Lovable project
+# Welcome to your ielts-fluent-ai project
+AI powered speaking Guidence and practice.
 
 ## Project info
 
