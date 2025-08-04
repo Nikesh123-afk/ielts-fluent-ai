@@ -1,7 +1,8 @@
 # Welcome to your ielts-fluent-ai project
 AI powered speaking Guidence and practice.
 
-## Project info
+## Project info 
+## click the URL explore the full project here!!
 
 **URL**: https://lovable.dev/projects/4c74bb56-c579-4c69-8f89-c402f92a6e22
 
