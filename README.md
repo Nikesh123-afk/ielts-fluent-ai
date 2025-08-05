@@ -1,4 +1,4 @@
-# Welcome to your ielts-fluent-ai project
+# Welcome to my ielts-fluent-ai project
 AI powered speaking Guidence and practice.
 
 ## Project info 
